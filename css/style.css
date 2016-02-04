@@ -56,65 +56,11 @@ hr {
     text-align: center;
 }
 
-.icon-bicycle {
+.button {
     font-size: 5em;
     color: white;
 }
 
-.icon-bicycle:hover {
-    color: firebrick;
-}
-
-.icon-car {
-    font-size: 5em;
-    color: white;
-}
-
-.icon-car:hover {
-    color: firebrick;
-}
-
-.icon-scooter{
-    font-size: 5em;
-    color: white;
-}
-
-.icon-scooter:hover {
-    color: firebrick;
-}
-
-.icon-taxi {
-    font-size: 5em;
-    color: white;
-}
-
-.icon-taxi:hover {
-    color: firebrick;
-}
-
-.icon-bus {
-    font-size: 5em;
-    color: white;
-}
-
-.icon-bus:hover {
-    color: firebrick;
-}
-
-.icon-plane {
-    font-size: 5em;
-    color: white;
-}
-
-.icon-plane:hover {
-    color: firebrick;
-}
-
-.icon-walking {
-    font-size: 5em;
-    color: white;
-}
-
-.icon-walking:hover {
+.button:hover {
     color: firebrick;
 }

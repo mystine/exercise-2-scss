@@ -1,0 +1,65 @@
+html {
+	box-sizing: border-box;
+
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+  
+    background-color: $indianred;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: $primary;
+    font-size: 2.5em;
+    position: relative;
+    text-align: center;
+    font-family: $mainfont;
+}
+
+p {
+    color: $primary;
+    font-size: 1.25em;
+    position: relative;
+    text-align: center;
+    font-family: $mainfont;
+}
+
+.top {
+    padding: 2.5em;
+    position: relative;
+    height: 20em;
+}
+
+.flag {
+    text-align: center;
+}
+
+.icon-flag {
+    font-size: 3.5em;
+    color: $primary;
+}
+
+hr {
+    margin-bottom: 5em;
+}
+
+.transportation {
+    text-align: center;
+}
+
+.button {
+  @include button;
+}
+
+.button:hover {
+    color: $firebrick;
+}

@@ -1,0 +1,8 @@
+@mixin button {
+    font-size: 5em;
+    color: $white;
+    color: $firebrick;
+    &active {
+        color: $hovercolor;
+  }
+}
