@@ -1,8 +1,8 @@
-@mixins button {
+@mixin button {
+    background-color: $bgcolor;
     font-size: 5em;
-    color: $white;
-    color: $firebrick;
-    &active {
+    color: $primary;
+    &hover {
         color: $hovercolor;
   }
 }
