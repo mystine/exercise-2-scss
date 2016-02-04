@@ -1,66 +1,59 @@
 html {
-	box-sizing: border-box;
-
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
-  
-    background-color: indianred;
-}
-
-*, *:before, *:after {
-	box-sizing: inherit;
+  background-color: #CD5C5C;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 h1 {
-    color: white;
-    font-size: 2.5em;
-    position: relative;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  color: #FFFFFF;
+  font-size: 2.5em;
+  position: relative;
+  text-align: center;
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
 
 p {
-    color: white;
-    font-size: 1.25em;
-    position: relative;
-    text-align: center;
-    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+  color: #FFFFFF;
+  font-size: 1.25em;
+  position: relative;
+  text-align: center;
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
 
 .top {
-    padding: 2.5em;
-    position: relative;
-    height: 20em;
+  padding: 2.5em;
+  position: relative;
+  height: 20em;
 }
 
 .flag {
-    text-align: center;
+  text-align: center;
 }
 
 .icon-flag {
-    font-size: 3.5em;
-    color: white;
+  font-size: 3.5em;
+  color: #FFFFFF;
 }
 
 hr {
-    margin-bottom: 5em;
+  margin-bottom: 5em;
 }
 
 .transportation {
-    text-align: center;
+  text-align: center;
 }
 
 .button {
-    font-size: 5em;
-    color: white;
+  font-size: 5em;
+  color: #FFFFFF;
+}
+
+.buttonhover {
+  color: #B22222;
 }
 
 .button:hover {
-    color: firebrick;
+  color: #B22222;
 }
