@@ -1,0 +1,120 @@
+html {
+	box-sizing: border-box;
+
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+  
+    background-color: indianred;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+    position: relative;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+}
+
+p {
+    color: white;
+    font-size: 1.25em;
+    position: relative;
+    text-align: center;
+    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+}
+
+.top {
+    padding: 2.5em;
+    position: relative;
+    height: 20em;
+}
+
+.flag {
+    text-align: center;
+}
+
+.icon-flag {
+    font-size: 3.5em;
+    color: white;
+}
+
+hr {
+    margin-bottom: 5em;
+}
+
+.transportation {
+    text-align: center;
+}
+
+.icon-bicycle {
+    font-size: 5em;
+    color: white;
+}
+
+.icon-bicycle:hover {
+    color: firebrick;
+}
+
+.icon-car {
+    font-size: 5em;
+    color: white;
+}
+
+.icon-car:hover {
+    color: firebrick;
+}
+
+.icon-scooter{
+    font-size: 5em;
+    color: white;
+}
+
+.icon-scooter:hover {
+    color: firebrick;
+}
+
+.icon-taxi {
+    font-size: 5em;
+    color: white;
+}
+
+.icon-taxi:hover {
+    color: firebrick;
+}
+
+.icon-bus {
+    font-size: 5em;
+    color: white;
+}
+
+.icon-bus:hover {
+    color: firebrick;
+}
+
+.icon-plane {
+    font-size: 5em;
+    color: white;
+}
+
+.icon-plane:hover {
+    color: firebrick;
+}
+
+.icon-walking {
+    font-size: 5em;
+    color: white;
+}
+
+.icon-walking:hover {
+    color: firebrick;
+}
